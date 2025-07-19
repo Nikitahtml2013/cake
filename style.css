@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    a{
+        text-decoration: none;
+    }
+    .h1 {
+        font-size: 72px;
+        letter-spacing: 4px;
+        color: #333333;
+    }
+    h2{
+        padding-bottom: 70px;
+        text-align: center;
+        
+    }
+.wrapper {
+    margin: 0 auto;
+    width: 85%;
+}
+body {
+    font-family: Rubik;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    padding-bottom: 100px;
+}
+
+.navigation{
+    padding: 27px 0;
+    align-items: center;
+}
+
+.wrapper{
+    column-gap: 50px;
+}
+
+.wrapper a {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #333333;
+}
+.main-bg{
+    padding: 15%;
+    background: #dddee2 url(../img/von.png) no-repeat center/cover;
+    min-height: 120vh;
+    text-align: center;
+}
+
+.bg{
+    background: #dddee2 url(../img/piroshki.png) no-repeat center/cover;
+}
+
+h1,h2{
+    color :#333 ;
+    letter-spacing: 4px;
+}
+h1{
+    padding-bottom: 50px;
+    font-size: 82px;
+    transition: 1s;
+}
+
+h1:hover{
+    color:  blue;
+}
+
+.main-bg a {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    min-width: 252px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #c6792b;
+    padding: 10px 0;
+    display: inline-block;
+    transition: 1S;
+}
+
+.main-bg a:hover{
+    color:  black;
+    background-color: azure;
+}
+
+.asoor{
+    font-size: 72px;
+    letter-spacing: 4px;
+    color: #333333;
+    text-align: center;
+    margin: 56px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hotov{  
+    width: 604px;
+    height: 655px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.fug{
+    border: 10px solid white ;
+}
+
+.lop{
+    display: flex;
+    width: 600px;
+}
+
+.addr{
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #333333;
+}
+
+.cont{
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #333333;
+}
+
+.mai{
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #333333;
+}
+
+.hol{
+    font-size: 74px;
+    letter-spacing: 4px;
+    color: #333333;
+    text-align: center;
+}
+ 
+.assortment div {
+column-gap: 50px;
+}
+assortment figure{
+    max-width: 100%;
+}
+assortment img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.assortment h3{
+    background-color: #fff;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+
+
+}
+p{
+    padding: 12px;
+}
+
+.footer-top{
+    color: aliceblue;
+    display:flex;
+    justify-content: space-between;
+}
+.hotov h2 {
+    font-size: 72px;
+    letter-spacing: 4px;
+    color: #333333;
+    text-align: right;
+
+}
+.poko{
+    height: 100px;
+    margin: 0%;
+}
+
+.nako {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #333333;     
+    transition: 3s ;
+}
+
+.nako :hover{
+    color: red;
+}
+
+.nalo{
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #333333;     
+    transition: 3s ;
+}
+
+.nalo :hover{
+color: red;
+}
+
+.card h3 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+
+.card figure {
+    background-color: #333;
+}
+
+.card{
+    margin: 130px;
+}
+
+
+
+.karta-all {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+footer{
+    display: flex;
+    background-color: #333;
+    
+    padding: 70px;
+    justify-content: center;
+}
+
