@@ -12,7 +12,7 @@
         color: #333333;
     }
     h2{
-        padding-bottom: 70px;
+        padding-bottom: 10px;
         text-align: center;
         
     }
@@ -140,6 +140,7 @@ h1:hover{
     letter-spacing: 4px;
     color: #333333;
     text-align: center;
+    margin: 45px;
 }
  
 .assortment div {
@@ -211,6 +212,8 @@ color: red;
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
+    background-color: #333;
+    margin: 250x;
 }
 
 .card figure {
@@ -226,6 +229,7 @@ color: red;
 .karta-all {
     display: flex;
     flex-direction: row-reverse;
+    padding: 50px;
 }
 
 footer{
