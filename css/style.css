@@ -3,17 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-size: 0.7px;
+}
     a{
         text-decoration: none;
     }
     .h1 {
-        font-size: 72px;
-        letter-spacing: 4px;
+        padding: 0 15rem 50rem;
+        font-size: 72rem;
+        letter-spacing: 4rem;
         color: #333333;
     }
     h2{
-        padding-bottom: 10px;
-        text-align: center;
+        padding-bottom: 70rem;
         
     }
 .wrapper {
@@ -21,6 +25,7 @@
     width: 85%;
 }
 body {
+    font-size: 16rem;
     font-family: Rubik;
 }
 .flex-between{
@@ -28,27 +33,26 @@ body {
     justify-content: space-between;
 }
 section{
-    padding-bottom: 100px;
+    padding-bottom: 100rem;
 }
 
 .navigation{
-    padding: 27px 0;
+    padding: 27rem 0;
     align-items: center;
 }
 
 .wrapper{
-    column-gap: 50px;
+    column-gap: 50rem;
 }
 
 .wrapper a {
-    font-size: 24px;
-    letter-spacing: 1px;
+    font-size: 24rem;
+    letter-spacing: 1rem;
     color: #333333;
 }
 .main-bg{
     padding: 15%;
     background: #dddee2 url(../img/von.png) no-repeat center/cover;
-    min-height: 120vh;
     text-align: center;
 }
 
@@ -57,12 +61,13 @@ section{
 }
 
 h1,h2{
+    font-size: 52rem;
     color :#333 ;
-    letter-spacing: 4px;
+    letter-spacing: 4rem;
 }
 h1{
-    padding-bottom: 50px;
-    font-size: 82px;
+    padding-bottom: 50rem;
+    font-size: 82rem;
     transition: 1s;
 }
 
@@ -71,14 +76,14 @@ h1:hover{
 }
 
 .main-bg a {
-    font-size: 24px;
-    letter-spacing: 1px;
+    font-size: 24rem;
+    letter-spacing: 1rem;
     color: #ffffff;
-    min-width: 252px;
-    height: 50px;
-    border-radius: 30px;
+    min-width: 252rem;
+    height: 50rem;
+    border-radius: 30rem;
     background-color: #c6792b;
-    padding: 10px 0;
+    padding: 10rem 0;
     display: inline-block;
     transition: 1S;
 }
@@ -89,65 +94,66 @@ h1:hover{
 }
 
 .asoor{
-    font-size: 72px;
-    letter-spacing: 4px;
+    font-size: 72rem;
+    letter-spacing: 4rem;
     color: #333333;
     text-align: center;
-    margin: 56px;
+    margin: 56rem;
 }
 
 .card{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .hotov{  
-    width: 604px;
-    height: 655px;
-    font-size: 24px;
+    font-size: 24rem;
     color: #333333;
 }
 
 .fug{
-    border: 10px solid white ;
+    border: 10rem solid white ;
 }
 
 .lop{
     display: flex;
-    width: 600px;
 }
 
 .addr{
-    font-size: 36px;
-    letter-spacing: 2px;
+    font-size: 36rem;
+    letter-spacing: 2rem;
     color: #333333;
 }
 
 .cont{
-    font-size: 36px;
-    letter-spacing: 2px;
+    font-size: 36rem;
+    letter-spacing: 2rem;
     color: #333333;
 }
 
 .mai{
-    font-size: 36px;
-    letter-spacing: 2px;
+    font-size: 36rem;
+    letter-spacing: 2rem;
     color: #333333;
 }
 
 .hol{
-    font-size: 74px;
-    letter-spacing: 4px;
+    font-size: 74rem;
+    letter-spacing: 4rem;
     color: #333333;
     text-align: center;
-    margin: 45px;
+    margin: 45rem;
 }
  
-.assortment div {
-column-gap: 50px;
+.assortment div,
+.work {
+    flex-wrap: wrap;
+    gap: 20rem;
 }
 assortment figure{
-    max-width: 100%;
+    background-color: #333;
+    max-width: 40vw;
 }
 assortment img{
     width: 100%;
@@ -156,15 +162,15 @@ assortment img{
 }
 .assortment h3{
     background-color: #fff;
-    font-size: 24px;
-    letter-spacing: 2px;
+    font-size: 24rem;
+    letter-spacing: 2rem;
     text-transform: uppercase;
     color: #fff;
 
 
 }
 p{
-    padding: 12px;
+    padding: 12rem;
 }
 
 .footer-top{
@@ -173,20 +179,20 @@ p{
     justify-content: space-between;
 }
 .hotov h2 {
-    font-size: 72px;
-    letter-spacing: 4px;
+    font-size: 72rem;
+    letter-spacing: 4rem;
     color: #333333;
     text-align: right;
 
 }
 .poko{
-    height: 100px;
+    height: 100rem;
     margin: 0%;
 }
 
 .nako {
-    font-size: 24px;
-    letter-spacing: 1px;
+    font-size: 24rem;
+    letter-spacing: 1rem;
     color: #333333;     
     transition: 3s ;
 }
@@ -196,8 +202,8 @@ p{
 }
 
 .nalo{
-    font-size: 24px;
-    letter-spacing: 1px;
+    font-size: 24rem;
+    letter-spacing: 1rem;
     color: #333333;     
     transition: 3s ;
 }
@@ -207,8 +213,8 @@ color: red;
 }
 
 .card h3 {
-    font-size: 24px;
-    letter-spacing: 2px;
+    font-size: 24rem;
+    letter-spacing: 2rem;
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
@@ -221,23 +227,54 @@ color: red;
     
 }
 
-.card{
-    margin: 130px;
-}
-
-
-
 .karta-all {
     display: flex;
     flex-direction: row-reverse;
-    padding: 50px;
+    padding: 50rem;
 }
 
 footer{
     display: flex;
     background-color: #333;
-    
-    padding: 70px;
+    padding: 70rem;
     justify-content: center;
 }
 
+@media screen and (min-width: 425) {
+    h1 , h2 {
+        font-size: 72 rem;
+    }
+}
+
+@media screen and (min-widht: 768px) {
+    .assortment div,
+    .karta-all .flex-between
+    .work {
+        flex-wrap: nowrap;
+    }
+
+    .work-text{
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024) {
+    .assortment div,
+    .karta-all .flex-between,
+    .work {
+        column-gap: 50rem;
+    }
+}
+
+@media screen and (min-width: 320px) {
+
+    .navigation{
+        flex-wrap: wrap;
+        gap: 20rem;
+        justify-content: center;
+    }
+
+    .assor-figure{
+        max-height: 10px;
+    }
+}
