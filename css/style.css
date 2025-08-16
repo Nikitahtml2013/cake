@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+
+img{
+    width: 100%;
+}
+
 html{
     font-size: 0.7px;
 }
@@ -93,7 +98,7 @@ h1:hover{
     background-color: azure;
 }
 
-.asoor{
+.Assortment{
     font-size: 72rem;
     letter-spacing: 4rem;
     color: #333333;
@@ -146,7 +151,7 @@ h1:hover{
     margin: 45rem;
 }
  
-.asoor,
+.Assortment,
 .work,
 .mola {
     flex-wrap: wrap;
