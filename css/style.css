@@ -234,6 +234,7 @@ footer {
 
 .conta {
     flex-wrap: wrap;
+    align-items: center;
 }
 
 
